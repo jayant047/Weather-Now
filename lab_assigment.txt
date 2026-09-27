@@ -63,9 +63,9 @@
 <h1>My Resume</h1>
 
 <h2>Personal Information</h2>
-<p><b>Name:</b> Naushika Faridi</p>
-<p><b>Email:</b> naushika@gmail.com</p>
-<p><b>Phone:</b> 98765#####</p>
+<p><b>Name:</b> Jayant Mehta</p>
+<p><b>Email:</b> jayant.mehta@gmail.com</p>
+<p><b>Phone:</b> 735199#####</p>
 <p><b>Address:</b> Delhi, India</p>
 
 <h2>Career Objective</h2>
