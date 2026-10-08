@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Now</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Weather Now
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#forecast">Forecast</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="home" class="weather-section">
+
+            <h1>Weather Now</h1>
+
+            <p class="description">
+                Get simple and useful weather information for your city.
+            </p>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="cityInput"
+                    placeholder="Enter city name"
+                >
+
+                <button id="searchButton">
+                    Search
+                </button>
+            </div>
+
+            <p id="message"></p>
+
+
+
+            <div class="weather-card">
+
+                <h2 id="cityName">Delhi</h2>
+
+                <div class="temperature">
+                    <span id="temperature">32°C</span>
+                </div>
+
+                <p id="condition">Sunny</p>
+
+                <div class="weather-details">
+
+                    <div class="detail">
+                        <h3>Humidity</h3>
+                        <p id="humidity">45%</p>
+                    </div>
+
+                    <div class="detail">
+                        <h3>Wind Speed</h3>
+                        <p id="windSpeed">12 km/h</p>
+                    </div>
+
+                    <div class="detail">
+                        <h3>Feels Like</h3>
+                        <p id="feelsLike">34°C</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    
+        <section id="forecast" class="forecast-section">
+
+            <h2>Weather Forecast</h2>
+
+            <div class="forecast-container">
+
+                <div class="forecast-card">
+                    <h3>Today</h3>
+                    <p>☀️ Sunny</p>
+                    <strong>32°C</strong>
+                </div>
+
+                <div class="forecast-card">
+                    <h3>Tomorrow</h3>
+                    <p>⛅ Partly Cloudy</p>
+                    <strong>30°C</strong>
+                </div>
+
+                <div class="forecast-card">
+                    <h3>Saturday</h3>
+                    <p>🌧️ Light Rain</p>
+                    <strong>28°C</strong>
+                </div>
+
+                <div class="forecast-card">
+                    <h3>Sunday</h3>
+                    <p>☀️ Sunny</p>
+                    <strong>31°C</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+     
+        <section id="about" class="about-section">
+
+            <h2>About Weather Now</h2>
+
+            <p>
+                Weather Now is a simple frontend project that displays
+                sample weather information for different cities.
+                This project is created using HTML, CSS and JavaScript.
+            </p>
+
+        </section>
+
+    </main>
+
+
+  
+ 
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
